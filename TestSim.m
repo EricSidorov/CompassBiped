@@ -1,0 +1,9 @@
+% clear all;
+Surf = ConstSlope(0.1);
+Con = PassiveCon();
+CB = CBModel();
+Sim = Simulation(CB,Con,Surf);
+x0 = [-0.1,0,0,0]';
+Tmax = 2;
+t_step = 0.001;
+[T,X,~,~,~] = Sim.run(x0,Tmax,t_step);

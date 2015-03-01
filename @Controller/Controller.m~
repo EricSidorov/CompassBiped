@@ -1,0 +1,17 @@
+classdef Controller
+    %CONTROLLER Summary of this class goes here
+    %   Detailed explanation goes here
+    
+    properties
+    end
+    
+    methods
+        function Con = Controller()
+        end
+        function dxdt = derivative(Con,t,x_con,x
+        function u = get_u(Con,t,x_con,x_mod)
+        end
+    end
+    
+end
+
